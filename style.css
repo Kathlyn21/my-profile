@@ -1,0 +1,92 @@
+body { 
+   	background-color: rgb(255,138,73);
+   	font-family: Arial, serif;
+   	letter-spacing: 1px;
+   	text-align: center;
+}
+
+h1 {
+	color: rgb(76,47,2);
+	font-weight: 560;
+	letter-spacing: 3px;
+	font-size: 40px;
+	text-transform: uppercase;
+	justify-content: center; 
+}
+
+h2 {
+	color: rgb(66,30,3);
+	font-weight: bold 500;
+	letter-spacing: 3px;
+	font-size: 28px;
+	line-height: 1.8;
+}
+
+p {
+	font-size: 22px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(255,97,15);
+	font-size: 19px
+}
+a:hover{
+	color: red;
+}
+
+div {
+	background: rgb(255,215,153);
+	margin: 30px auto;
+	padding: 30px;
+	width: 600px;
+	border: 1px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 34px rgba(251, 212,79,20);
+}
+
+#photo {
+	margin-top: 30px;
+	border-radius: 50%;
+	width: 	220px;
+	box-shadow: 0px 10px 10px rgba( 1,1,1,0.7)
+   }
+   
+#text p {
+	margin-bottom: 40px;
+}
+
+/*Custome design with class*/
+
+.btn-yellow {
+	 background-color: rgba(255, 212,79,30);
+	 color: white;
+	 padding: 15px 20px;
+	 border-radius: 10px;
+	 box-shadow: 5px 5px 24px rgba(0,0,0,0.15);
+}
+.btn-yellow:hover {
+	background-color: rgba(233, 195,65,30);
+	 color: white;
+}
+
+.box-designn {
+	padding-bottom: 50px;
+}
+
+.list-inline {
+	color: red;
+	padding-left: 0px;
+	list-style: none;
+
+}
+.list-inline:hover {
+	 list-style: none;
+	 color: red;
+}
+.list-inline li {
+	padding: 30px;
+	display: inline;
+	font-size: 20px;
+}
